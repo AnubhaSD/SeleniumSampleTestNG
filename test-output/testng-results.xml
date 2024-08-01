@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-30T13:22:05 PDT" name="Default suite" finished-at="2024-07-30T13:22:18 PDT" duration-ms="12397">
+    <groups>
+    </groups>
+    <test started-at="2024-07-30T13:22:05 PDT" name="Default test" finished-at="2024-07-30T13:22:18 PDT" duration-ms="12397">
+      <class name="Tests.TestCase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TestCase@1e63ec0b]" started-at="2024-07-30T13:21:56 PDT" name="setUp" finished-at="2024-07-30T13:22:05 PDT" duration-ms="9830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="launchApplication()[pri:0, instance:Tests.TestCase@1e63ec0b]" started-at="2024-07-30T13:22:05 PDT" name="launchApplication" finished-at="2024-07-30T13:22:08 PDT" duration-ms="2810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="performOperations(java.lang.Object)[pri:0, instance:Tests.TestCase@1e63ec0b]" started-at="2024-07-30T13:22:08 PDT" name="performOperations" data-provider="testDataSupplier" finished-at="2024-07-30T13:22:18 PDT" duration-ms="9460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Firstname=John, Lastname=Smith, Zipcode=95054.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performOperations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TestCase@1e63ec0b]" started-at="2024-07-30T13:22:18 PDT" name="tearDown" finished-at="2024-07-30T13:22:18 PDT" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
